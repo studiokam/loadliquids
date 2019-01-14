@@ -1,0 +1,939 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Ubuntu:300,400,500,700');
+
+
+/* ---------------- globalne ---------------- */
+
+html,body {height:100%;}
+
+/*tła strony */
+.bg1 {
+	background-image: url('../img/baner1.jpg');
+	background-position: center 55px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.bg2 {
+	background-image: url('../img/baner2.jpg');
+	background-position: center 55px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.bg3 {
+	background-image: url('../img/baner3.jpg');
+	background-position: center 55px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.bg4 {
+	background-image: url('../img/baner4.jpg');
+	background-position: center 55px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.bg5 {
+	background-image: url('../img/baner5.jpg');
+	background-position: center 55px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+/*/tła strony */
+
+.stickyfooter {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.stickyfooter-content {
+	flex: 1 0 auto;
+}
+.my-font {
+    font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #666;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	color: #666;
+}
+
+
+/* ---------------- index and search ---------------- */
+.record-wrapper {
+	font-size: 15px;
+	line-height: 15px;
+}
+.record-head {
+	margin: 0;
+	padding: 0 15px;
+	margin-bottom: 2px;
+}
+.record_box a {
+	text-decoration: none;
+	color: #666;
+}
+.record_box a:hover {
+	text-decoration: none;
+	color: #666;
+}
+.record_box i {
+	font-size: 30px;
+	margin-top: 5px;
+}
+.record_box:hover i {
+	font-size: 30px;
+	color: #73ad53;
+}
+.record {
+	border: 1px solid #dbdbdb;
+	margin: 0;
+	padding: 25px 15px;
+	margin-bottom: -1px;
+}
+.record:hover {
+	background: #fafafa;
+}
+.record-bg-first {
+	background: #fcfcfc;
+}
+.record-bg-second {
+	background: #fff;
+}
+.record-city {
+	font-size: 15px;
+	line-height: 15px;
+	margin: 10px 0 2px;
+}
+.record-date {
+	margin-top: 14px;
+	font-family: 'Istok Web', sans-serif;
+}
+.record-date-sm {
+	font-size: 12px;
+	line-height: 12px;
+	font-family: 'Istok Web', sans-serif;
+}
+
+
+
+
+.font-numbers {
+	font-family: 'Istok Web', sans-serif;
+}
+.font-lg {
+	font-size: 30px;
+	font-weight: 300;
+}
+.font-md {
+	font-size: 24px;
+	line-height: 1.5;
+	font-weight: 300;
+}
+.bg-red {
+  background: red;
+}
+.bg-grey {
+  background: grey;
+}
+footer {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #666;
+}
+footer a {
+	text-decoration: none;
+	color: #666;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #333;
+	font-weight: 700;
+}
+.footer-logo{
+	font-size: 30px;
+}
+
+
+.tlumaczenia_red{
+	background: #b9152c!important;
+	color: #fff!important;
+}
+
+
+.witaj {
+	margin-right: 30px;
+}
+.font-lg b {
+	font-weight: 700;
+}
+.font-md b {
+	font-weight: 700;
+	color: #73ad53;
+}
+.komentarz-place p {
+	margin: 0;
+	padding: 0;
+
+}
+.komentarz-place {
+	border-radius: 3px;
+	border:1px solid #dbdbdb;
+	padding: 20px;
+	background: #8f152c;
+	color: #fff;
+	font-weight: 300;
+}
+
+.container-nav {
+	background: #343A40;
+}
+.baner-first {
+	font-size: 36px;
+	font-weight: 300;
+	color: #666;
+	margin-top: 30px;
+	font-family: 'Istok Web', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+.baner-second {
+	font-size: 18px;
+	max-width: 450px;
+	font-weight: 300;
+	color: #666;
+	font-family: 'Istok Web', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+.home-box-search {
+	padding: 30px;
+	background-color:rgba(255, 255, 255, 0.9);
+	margin-top: 80px;
+	box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.1);
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+.home-box-toogle {
+	position: relative;
+	margin-top: -69px;
+}
+.nav-tabs .nav-link {
+    color: rgb(73, 80, 87);
+    background-color:rgba(255,255,255, 0.5);
+    border-color: rgba(221, 221, 221, 0.5) rgba(221, 221, 221, 0.5) /*rgb(255, 255, 255)*/;
+}
+.btn-green {
+    color: #fff;
+    background-color: #79B657;
+    border-color: #73ad53;
+}
+.btn-green:hover {
+    color: #fff;
+    background-color: #73ad53;
+    border-color: #73ad53;
+}
+.btn-ssm {
+  padding: 1px;
+  font-size: 8px;
+  line-height: 8px;
+  margin-top: -2px;
+  margin-left: 3px;
+  margin-right: 7px;
+  border-radius: 0.2rem;
+}
+.danger_bold a {
+	font-weight: 700;
+	color: #f35b5b;
+}
+.success-message {
+	background: #73ad53;
+	color: #fff;
+	padding: 15px 25px;
+	border-radius: 3px;
+}
+.flag.flag-pl {
+    text-indent: -999px;
+}
+.flag.flag-pl {
+    background-position: -32px -121px;
+}
+.flag {
+    float: left;
+    margin: 2px 5px 0 0;
+    height: 11px;
+    width: 16px;
+}
+
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #79B657;
+    border-color: #79B657;
+}
+
+.page-link {
+    color: #666;
+}
+.rights {
+	font-size: 11px;
+}
+.registered-flash {
+	background: #79B657;
+	color: #fff;
+	border-radius: 3px;
+	padding: 30px;
+	max-width: 500px;
+	margin: 0 auto 20px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.search_add {
+	flex-direction: row;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto 0 0;
+	color: rgba(255, 255, 255, 0.5);
+	cursor: auto;
+}
+.search_add li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	padding-top: 16px;
+}
+.search_add li:hover ul {
+	display: block;
+} 
+.search_add > li {
+	position: relative;
+	margin-right: 20px;
+	padding: 10px 10px 10px 0;
+	display: ;
+	color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+.line-height3 {
+	line-height: 25px;
+}
+
+.account_type_premium {
+	color: #79B657;
+	font-weight: 700;
+}
+.account_type {
+	color: #f35b5b;
+}
+
+.warning-message {
+	background: #c3001e;
+	border-radius: 3px;
+	color: #fff;
+	padding: 15px 25px;
+	font-size: 13px;
+	font-weight: 400;
+	position: relative;
+}
+
+.warning-message-index {
+	background: #c3001e;
+	color: #fff;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 400;
+	position: relative;
+}
+
+
+.search_add > li:hover {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 10px 10px 0;
+}
+.search_add li ul li a {
+	background: #73ad53;
+	display: block;
+	padding: 10px 25px;
+	margin: 0;
+	color: #fff;
+	white-space: nowrap;
+}
+.search_add li ul li a:hover {
+	background: #689d4b;
+	text-decoration: none;
+	display: block;
+	padding: 10px 25px;
+	margin: 0;
+	color: #fff;
+	white-space: nowrap;
+}
+.search_add li ul li  {
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+.my-3 {
+	position: fixed;
+	top: -15px;
+	left: 50px;
+	z-index: 9999;
+}
+
+
+
+.sign-up {
+		padding: 50px 0 50px 0;
+		color: #666;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+	}
+	.sign-up-box {
+		max-width: 500px;
+		margin: 0 auto ;
+		
+	}
+	.sign-up-logo {
+		font-size: 18px;
+		font-weight: 300;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 20px;
+	}
+	.sign-up-logo a {
+		color: #666;
+		text-decoration: none;
+	}
+	.sign-up-logo a:hover {
+		color: #666;
+		text-decoration: none;
+		padding-left: 1px;
+	}
+	.sign-up-logo b {
+		font-weight: 700;
+		color: #79B657;
+	}
+	.sign-up-head {
+		font-size: 18px;
+		font-weight: 300;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	.sign-up-head-sm {
+		font-size: 13px;
+		font-weight: 400;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 20px;
+	}
+	.sign-in-form label {
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: 700;
+	}
+	.sign-in-form input {
+		padding: 13px;
+		font-size: 13px;
+	}
+	.sign-in-form input::placeholder { 
+	   color:    #bfbebe;
+	}
+	.sign-up-in {
+		max-width: 500px;
+		margin: 20px auto;
+		font-family: 'Pt Sans', sans-serif;
+		font-size: 15px;
+	}
+	.sign-up-in a {
+		color: #666;
+		font-weight: 700; 
+		text-decoration: none;
+	}
+	.sign-up-in a:hover {
+		color: #79B657;
+		text-decoration: none;
+	}
+
+.add-col-options-xs {
+	margin-top: 30px;
+}
+nav ul {
+	text-align: center;
+}
+nav ul li {
+	border-bottom: 1px solid #40464b;
+}
+.no-border {
+	border-bottom: none;
+}
+.account-box-toogle {
+	margin-top: 50px;
+	margin-bottom: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.admin-content {
+	padding: 30px;
+}
+.border-t0 {
+	border-top: none !important;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.baner-first {
+		font-size: 48px;
+		font-weight: 300;
+		color: #666;
+		margin-top: 50px;
+		font-family: 'Istok Web', sans-serif;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	.baner-second {
+		font-size: 24px;
+		max-width: 450px;
+		font-weight: 300;
+		color: #666;
+		font-family: 'Istok Web', sans-serif;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	.home-box-search {
+		margin-top: 100px;
+	}
+	.made_by {
+		text-align: right;
+	}
+	footer {
+		margin-bottom: 40px;
+	}
+
+
+	.sign-up-100 {
+		height: 100vh;
+		background: #343A40;
+	}
+	.sign-up {
+		padding: 100px 0 50px 0;
+		color: #666;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		background: #343A40;
+		background-image: url('../img/contact_bg.png');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.sign-up-box {
+		max-width: 500px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 1px solid #f6f6f8;
+		background-color: rgba(255, 255, 255, 1);
+		box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.1);
+		border-radius: 5px;
+		padding: 50px;
+	}
+	.sign-up-box-dark {
+		max-width: 500px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	.sign-up-logo {
+		font-size: 18px;
+		font-weight: 300;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 20px;
+	}
+	.sign-up-logo a {
+		color: #666;
+		text-decoration: none;
+	}
+	.sign-up-logo a:hover {
+		color: #666;
+		text-decoration: none;
+		padding-left: 1px;
+	}
+
+
+	.sign-logo {
+		font-size: 18px;
+		font-weight: 300;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 20px;
+	}
+	.sign-logo a {
+		color: #fff;
+		text-decoration: none;
+	}
+	.sign-logo a:hover {
+		color: #fff;
+		text-decoration: none;
+		padding-left: 1px;
+	}
+	.sign-logo b {
+		font-weight: 700;
+		color: #79B657;
+	}
+
+
+	.sign-up-logo b {
+		font-weight: 700;
+		color: #79B657;
+	}
+	.sign-up-head {
+		font-size: 24px;
+		font-weight: 300;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	.sign-up-head-sm {
+		font-size: 14px;
+		font-weight: 400;
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 40px;
+	}
+	.sign-in-form label {
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: 700;
+	}
+	.sign-in-form input {
+		padding: 13px;
+		font-size: 13px;
+	}
+	.sign-in-form input::placeholder { 
+	   color:    #bfbebe;
+	}
+	.sign-up-in {
+		max-width: 500px;
+		margin: 20px auto;
+		text-align: right;
+		color: #fff;
+		font-family: 'Pt Sans', sans-serif;
+		font-size: 14px;
+	}
+	.sign-up-in a {
+		color: #fff;
+		font-weight: 400; 
+		text-decoration: none;
+	}
+	.sign-up-in a:hover {
+		color: #79B657;
+		text-decoration: none;
+	}
+	.contact {
+		margin-top: 55px;
+	}
+	.add-col-options-xs {
+		margin-top: 0px;
+	}
+	.account-box-toogle {
+		margin-top: 50px;
+		margin-bottom: 70px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 576px) and (max-width: 768px) {
+	.btn-search-m {
+		margin-top: 48px;
+	}
+	.szukaj_publikacja {
+		margin-top: 20px;
+	}
+	.add-col-options {
+		margin-top: 46px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.btn-search-m input /*a*/ {
+		margin-top: 76px;
+	}
+	.btn-search-m a {
+		margin-top: 76px;
+	}
+	.contact {
+		margin-top: 75px;
+	}
+	.contact-right {
+		margin-top: 80px;
+	}
+	.admin-content {
+		padding: 80px 30px;
+	}
+	.sort {
+		text-align: right;
+	}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
+	nav ul li {
+		border-bottom: none;
+	}
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
+.offer-details-head {
+	padding: 20px;
+	background: #343A40;
+	color: #fff;
+	margin: 70px 0 10px 0;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	border-radius: 3px;
+}
+.offer-details-head b {
+	color: #79B657;
+	font-weight: 700;
+}
+.offer-details-data {
+	font-family: 'Istok Web', sans-serif;
+}
+.offer-details-h {
+	font-size: 12px;
+	line-height: 12px;
+	font-family: 'Istok Web', sans-serif;
+}
+.offer-details-table th, .offer-details-table td {
+	padding: 20px;
+	background: #fff;
+}
+.pass-reset {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.specjal a {
+	color: #ecf0f1 !important;
+	font-weight: 700;
+}
+.specjal a:hover {
+	color: #79B657 !important;
+	font-weight: 700;
+}
+
+.specjal-green a {
+	/*color: #79B657 !important;*/
+}
+.specjal-green a:hover {
+	color: #79B657 !important;
+	font-weight: 700;
+}
+
+
+.container-nav-in {
+	background: #4c5155;
+	color: #fff;
+}
+.logout a {
+	color: #f35b5b;
+	font-weight: 700;
+}
+.logout a:hover {
+	color: #d05656;
+	font-weight: 700;
+}
+
+
+
+.account-form  {
+	margin-top: 50px;
+}
+.account-form input {
+	padding: 8px 13px;
+	font-size: 13px;
+}
+.font-md-400 {
+	font-weight: 400;
+	font-size: 20px;
+}
+.account-form input::placeholder { 
+   color:    #bfbebe;
+}
+.invoice {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.orders {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.navbar-toggler:focus{
+    outline: none;   
+}
+.admin-user-pagination-nr {
+	text-align: right;
+}
+.language-box {
+	border: 1px solid #eee;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.language-box-edit {
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background: #343A40;
+	color: #fff;
+}
+.language-box-edit .form-group {
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background: #fff;
+	color: #666;
+}
+
+
+
+
+/*timepicker*/
+
+.chung-timepicker * {
+	font-family: "Roboto";
+	box-sizing: border-box;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+}
+
+.chung-timepicker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display: block;
+	min-width: 160px;
+	padding: 10px;
+	margin: 2px 0 0;
+	text-align: left;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	background-color: #fff;
+}
+
+.chung-timepicker:before {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	left: 10px;
+	top: -7px;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid #ccc;
+}
+
+.chung-timepicker:after {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	left: 11px;
+	top: -6px;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #fff;
+	border-left: 6px solid transparent;
+}
+
+.chung-timepicker>.chung-timepicker-hours,
+.chung-timepicker>.chung-timepicker-minutes {
+	vertical-align: top;
+}
+
+.chung-timepicker table {
+	width: 100%;
+}
+
+.chung-timepicker .title:hover {
+	cursor: auto;
+	background: #fff;
+}
+
+.chung-timepicker td:hover,
+.chung-timepicker th:hover,
+.chung-timepicker-bottom .bottom-btn:hover {
+	background: #eeeeee;
+	cursor: pointer;
+}
+
+.chung-timepicker td.active {
+	background-color: rgb(101, 206, 167);
+	color: rgb(255, 255, 255);
+	text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.chung-timepicker td,
+.chung-timepicker th {
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 0;
+	padding: 5px;
+}
+
+.chung-timepicker .icon-arrow-left {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 2px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url('../img/glyphicons-halflings.png');
+	background-position: -240px -96px;
+	background-repeat: no-repeat;
+}
+
+.chung-timepicker-bottom {
+	margin-top: 5px;
+}
+
+.chung-timepicker-bottom .bottom-btn {
+	display: inline-block;
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, .15);
+	font-weight: 500;
+}
+
+
+/*timepicker-end*/
+
+/*557980
+6dd2cf
+ecf0f1
+4c5155
+79B657*/
